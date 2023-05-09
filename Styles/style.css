@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.boody{
+    overflow: hidden;
+    background-color: #f0f4f5;
+}
+nav{
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 25px;
+    
+    /* line-height: 80px; */
+    
+}
+
+nav .logo{
+    height: 45px;
+    
+}
+
+
+nav ul{
+    float: right;  
+    margin: 0 20px;
+    padding-right: 10%;
+    
+}
+
+nav ul li{
+   display: inline-flex;
+    list-style-type: none;
+    padding: 20px;
+    line-height: 45px;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    
+}
+section{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 50px;
+}
+.left-section{
+    width: 60%;
+    padding-top: 10%;
+}
+.left-section h1{
+    font-size: 50px;
+    font-weight: 500px;
+    padding-bottom: 20px;
+}
+.left-section p{
+    font-size: 15px;
+}
+.t-angle{
+    width: 25px;
+}
+.b-angle{
+    float: right;
+    width: 25px;
+}
+.stech{
+    position: absolute;
+    top: 150px;
+    width: 38%;
+    left: 20%;
+    z-index: -1;
+
+}
+.mouse{
+    padding-top: 50px;
+    position: relative;
+    left: 100%;
+    width: 30px;
+}
+button{
+    color: white;
+    background-color:  #20BC7E;;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+.right-section{
+    width: 40%;
+}
+.green-box,
+.yellow-box{
+    position: absolute;
+    right: 0;
+}
+.green-box{
+    width: 29%;
+    bottom: 30px;
+}
+.yellow-box{
+    width: 24%;
+    bottom: 25px;
+}
+.doctor-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
